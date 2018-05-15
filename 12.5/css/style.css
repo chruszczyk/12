@@ -58,6 +58,7 @@ body main .buttons button i {
 }
 
 body main .buttons button a {
+  display: block;
   text-decoration: none;
 }
 
