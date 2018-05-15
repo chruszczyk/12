@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+$blue: #41AAF1;
+$white: #fff;
+
+.center {
+	text-align: center;
+}
+
+body {
+	background-color: $blue;
+	font-family: 'Open Sans', sans-serif;
+	color: $white;
+	letter-spacing: 1px;
+	main {
+		h1 {
+			font-size: 45px;
+			margin: 40px;
+		}
+		.quote,
+		.author,
+		button {
+			font-weight: 300;
+		}
+		.box {
+			margin-top: 100px;
+			margin-bottom: 100px;
+		}
+		.buttons {
+			display: flex;
+			flex-direction: column;
+			button {
+				width: 50vw;
+				align-self: center;
+				background-color: $blue;
+				margin: 6px;
+				padding: 10px;
+				border: 1px solid $white;
+				border-radius: 10px;
+				color: $white;
+				font-size: 12px;
+				letter-spacing: 1px;
+				&:hover{
+					cursor: pointer;
+					background-color: #40a0ef;
+				};
+				i {
+					padding-right: 10px;
+				}
+				a {
+					text-decoration: none;
+					&:visited {
+						color: $white;
+					}
+				}
+			}
+		}
+	}
+}
