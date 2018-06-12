@@ -58,11 +58,8 @@ body main .buttons button i {
 }
 
 body main .buttons button a {
+  color: #fff;
   display: block;
   text-decoration: none;
-}
-
-body main .buttons button a:visited {
-  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

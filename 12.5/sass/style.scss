@@ -48,11 +48,9 @@ body {
 					padding-right: 10px;
 				}
 				a {
+					color: $white;
 					display: block;
 					text-decoration: none;
-					&:visited {
-						color: $white;
-					}
 				}
 			}
 		}
